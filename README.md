@@ -71,7 +71,7 @@ Then edit `.env`:
 ```env
 SECRET_KEY=your-secret-key
 DEBUG=True
-DB_NAME=biblipy
+DB_NAME=biblipy (or a name of your choice)
 DB_USER=your-db-user
 DB_PASSWORD=your-db-password
 DB_HOST=localhost
