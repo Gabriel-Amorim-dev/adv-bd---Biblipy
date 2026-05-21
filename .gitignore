@@ -1,0 +1,27 @@
+# --- Ambientes Virtuais ---
+# Bloqueia a venv na raiz
+venv/
+
+# Bloqueia a env dentro da pasta library
+library/.env
+library/env/
+
+# Caso existam outros ambientes em qualquer subpasta
+**/env/
+**/venv/
+
+# --- IDEs e Editores ---
+.idea/
+.vscode/
+
+# --- Django ---
+db.sqlite3
+__pycache__/
+*.py[cod]
+media/
+static/
+staticfiles/
+
+# --- Variáveis de Ambiente ---
+.env
+**/.env
